@@ -1,0 +1,45 @@
+.flex-container{
+  
+  display: flex;
+  background-color: cyan;
+  width: device-width;
+  height: 700px;
+  border: 10px;
+  border-style: double;
+  border-radius: 10px;
+  border-color: #00b3b3;
+  margin: 10px;
+  flex-wrap: wrap;
+  
+}
+
+.flex-container > div {
+  
+  background-color: #99ffdd;
+  padding: 20px;
+  font-size: 40px;
+  
+}
+
+
+.col-1{
+
+  border-style: solid;
+  border-color: #66c2ff;
+
+}
+
+
+.col-8{
+
+  border-style: solid;
+  border-color: #4db8ff;
+
+}
+
+.col-4{
+
+  border-style: solid;
+  border-color: #4db8ff;
+
+}
